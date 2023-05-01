@@ -1,0 +1,128 @@
+.container {
+  width: 90%;
+  background-color: #e2e2e2;
+  font-family: "System UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  margin: auto;
+  padding: 30px;
+
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  /* max-width: 1060px; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  justify-content: center;
+  align-items: center;
+
+  row-gap: 40px;
+  column-gap: 40px;
+  margin: auto;
+  padding: 80px 30px;
+  background-color: white;
+
+  box-shadow: 10px 10px 10px solid black;
+  box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+
+  text-align: right;
+}
+.title {
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 700;
+}
+.title-2 {
+  font-size: 46px;
+  line-height: 46px;
+  font-weight: 700;
+}
+.sub-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.text {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+}
+.header-image img {
+  width: 350px;
+  border-top-right-radius: 70%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 30%;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 0px 30px;
+  padding-bottom: 20px;
+}
+.more-works-section {
+  max-width: 900px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  box-shadow: 10px 10px 10px solid black;
+  box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.alfa {
+  display: flex;
+  justify-content: space-between;
+}
+.cont1{
+  margin-right: 20px;
+}
+
+.cont2{
+  margin-right: 20px;
+}
+
+.cont3{
+  margin-right: 20px;
+}
+
+.cont4{
+  margin-right: 10px;
+}
+
+.text1{
+  text-decoration: none;
+  margin-top: 30px;
+  background-color: rgb(31, 12, 194);
+  padding: 0.2em;
+  color: aliceblue;
+  width: 15px;
+  height: 5em;
+  border-radius: 5em;
+}
+
+.home {
+  text-decoration: none;
+  margin-top: 30px;
+  background-color: rgb(31, 12, 194);
+  padding: 0.2em;
+  color: aliceblue;
+  width: 15px;
+  height: 5em;
+  /* border-radius: 5em; */
+  border-bottom-left-radius: 2em;
+}
